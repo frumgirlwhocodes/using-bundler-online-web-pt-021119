@@ -9,4 +9,6 @@ gem "sinatra", "1.4.4"
 
 group :development do
   gem "pry"
+  group :test do 
+    gem "respec"
 end
